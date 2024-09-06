@@ -1,0 +1,31 @@
+/* TabbedWidget.css */
+.tabbed-widget {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .tabs {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .tabs button {
+    flex:1; /* Makes buttons stretch to fit container width */
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  
+  .tab-content {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    border-top: none; 
+  }
+  

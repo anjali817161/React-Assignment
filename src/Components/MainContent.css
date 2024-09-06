@@ -1,0 +1,16 @@
+/* MainContent.css */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.tabbed-widget-container {
+  flex: 1; /* Takes up 50% of the height of right-panel */
+  overflow-y: auto; /* Enables vertical scrolling */
+}
+
+.gallery-widget-container {
+  flex: 1; /* Takes up the remaining 50% of the height of right-panel */
+  overflow-y: auto; /* Enables vertical scrolling */
+}
